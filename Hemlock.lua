@@ -291,7 +291,9 @@ function Hemlock:OnInitialize()
 	self.buyTable["ConfirmationPopup"] = {}
 	self.inited = false
 
+	-- by acamar/triton
 	self:InitFrames();
+	self.inited = true
 end
 
 function Hemlock:PLAYER_LOGIN()	
